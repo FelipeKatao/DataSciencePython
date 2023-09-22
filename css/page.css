@@ -1,0 +1,27 @@
+nav ul li {
+    float: left;
+    margin-left: 4vh;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+ a:hover{
+    transition: all 1s;
+    color: #190d58; 
+}
+.topo{z-index: 99;;position: fixed;font-family: Arial, Helvetica, sans-serif;font-weight: bold;color: #ffffff;background-color: #8f8fff; height: 8vh;width: 100%;padding: 2vh;margin-top: -2vh;margin-left: -1vh;}
+
+#pagina{
+    position: absolute;
+    background-color: #cdcdff;
+    height: 90vh;
+    width: 100%;
+    margin-left: -2vh;
+    margin-top: 12vh;
+}
+
+footer{background-color: #8f8fff; color: #ffffff; width: 100%;margin-left: -2vh ;height: 8vh; position: absolute; margin-top: 120vh;display: flex;flex-direction: column;align-items: center;padding: 2vh;}
