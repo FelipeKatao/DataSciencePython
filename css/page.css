@@ -18,10 +18,32 @@ a {
 #pagina{
     position: absolute;
     background-color: #cdcdff;
-    height: 90vh;
     width: 100%;
     margin-left: -2vh;
     margin-top: 12vh;
 }
 
 footer{background-color: #8f8fff; color: #ffffff; width: 100%;margin-left: -2vh ;height: 8vh; position: absolute; margin-top: 120vh;display: flex;flex-direction: column;align-items: center;padding: 2vh;}
+.ArticleData{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-bottom: 40vh;
+}
+.ArticleData img{
+    height: 60vh;
+}
+
+.ArticleData article{
+    margin-top: -60vh;
+    margin-left: 83vh;
+    width: 97vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #190d58;
+}
+
+.ArticleData h1{
+    font-size: 6vh;
+}
