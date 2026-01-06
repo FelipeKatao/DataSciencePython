@@ -9,27 +9,33 @@
 </head>
 
 <body>
+<nav> 
+  <h1>Sistema de analise de dados</h1>
+  <ul>
+    <li>Analise simples</li>
+    <li>Inigths</li>
+     {% for dom in Dominios %}
+          <li> Valor {{dom}} </li>
+     {% endfor %}
+    <li><label>Procurar</label> <input type="text"> <button>Ok</button> </li>
+  </ul>
+</nav>
 
-
-    <nav class="topo">
-      <div class="logo">Data Sciente Python | page main</div>
-      <ul>
-        <li><a href="">Dados Brutos</a></li>
-        <li><a href="">Graficos</a></li>
-        <li><a href="">Sobre o projeto</a></li>
-      </ul>
-    </nav>
-
-<div id="pagina">
+<div id="page">
+  <div class="DataBox">
+    <h1>Meus dados</h1>
+    <hr/>
+    {{Analise |safe }}
+  </div>
 
 </div>
 
-<!--
+
 <footer>
   Projeto criado por Felipe Catão 2023
   <a href="">Aprenda a contribuir este projeto com o GitHub!</a>
 </footer>
--->
+
 <script type="text/javascript" src="./js/data.json"></script>
 <script src="./js/main.js" type="module"></script>
 </body>
